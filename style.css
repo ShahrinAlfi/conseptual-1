@@ -66,8 +66,42 @@
     align-items: center;
     flex-direction: row-reverse;
     padding: 20px;
+    height: 400px;
 }
 .about-title{
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.icon{
+    width: 70px;
+    
+
+}
+
+.box-btn{
+    background-color: grey;
+    margin-top: 10px;
+}
+.box-description{
+    margin-top: 10px;
+}
+.box-title{
+    margin-top: 10px;
+    text-align: center;
+}
+.service-container{
+    display: flex;
+    background-color: rgb(167, 165, 165);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
