@@ -26,3 +26,37 @@
 .item:hover{
     color: red;
 }
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(8, 8, 8),#000);
+}
+
+.title{
+    font-size: 55px;
+    font-size: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none; 
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: aqua;
+    color: red;
+    cursor: pointer;
+}
