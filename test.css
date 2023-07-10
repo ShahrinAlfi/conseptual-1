@@ -2,3 +2,20 @@
     margin: 0px;
     padding:0px;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 150px;
+}
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
